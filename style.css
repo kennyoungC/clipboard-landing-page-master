@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 96px;
+}
+.header {
+  background-image: url(images/bg-header-desktop.png);
+}
+.logo-img {
+  margin: 32px 0;
+}
+.header-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-primary-box {
+  text-align: center;
+}
+.heading-primary {
+  font-weight: 400;
+  color: hsl(210, 10%, 33%);
+}
+.header-primary-text-box {
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 24px;
+}
+.btn-box {
+  display: flex;
+  gap: 12px;
+}
+.btn {
+  color: #fff;
+  border: none;
+  padding: 9px 32px;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 9px 10px rgba(0, 0, 0, 0.1);
+}
+.bgcol-1 {
+  background-color: hsl(171, 66%, 44%);
+}
+.bgcol-2 {
+  background-color: hsl(233, 100%, 69%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
