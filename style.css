@@ -114,6 +114,36 @@ body {
   display: inline-block;
   width: 75%;
 }
+.section-tags {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.section-tag-lists {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  margin-top: 64px;
+  /* margin-right: 64px; */
+}
+.tag-lists {
+  text-align: center;
+}
+.tag-lists img {
+  /* display: flex;
+  align-items: center;
+  justify-content: flex-end; */
+  margin-bottom: 18px;
+}
+.hpclass {
+  display: inline-block;
+  width: 80%;
+}
+.hpclass-2 {
+  margin-right: 48px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
