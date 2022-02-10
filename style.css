@@ -39,6 +39,7 @@ body {
 .btn-box {
   display: flex;
   gap: 12px;
+  justify-content: center;
 }
 .btn {
   color: #fff;
@@ -143,6 +144,18 @@ body {
 }
 .hpclass-2 {
   margin-right: 48px;
+}
+.section-featured-in {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 48px; */
+}
+.section-featured-in img {
+  width: 10%;
+  height: 9%;
+}
+.margin {
+  margin: 32px 0;
 }
 .attribution {
   font-size: 11px;
