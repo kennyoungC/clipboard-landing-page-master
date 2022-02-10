@@ -119,6 +119,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 120px;
   /* align-items: center; */
 }
 .section-tag-lists {
@@ -148,6 +149,7 @@ body {
 .section-featured-in {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 120px;
   /* gap: 48px; */
 }
 .section-featured-in img {
@@ -156,6 +158,31 @@ body {
 }
 .margin {
   margin: 32px 0;
+}
+.footer-section {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+.footer-list {
+  list-style: none;
+}
+.footer-links {
+  display: flex;
+  gap: 48px;
+}
+.footer-list a {
+  color: hsl(212, 12%, 32%);
+  text-decoration: none;
+}
+.footer-icons {
+  display: flex;
+  gap: 12px;
+  margin-left: auto;
+  cursor: pointer;
+}
+.icon-links:link {
+  fill: blue;
 }
 .attribution {
   font-size: 11px;
