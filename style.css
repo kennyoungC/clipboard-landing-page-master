@@ -48,6 +48,11 @@ body {
   border-radius: 40px;
   cursor: pointer;
   box-shadow: 0 9px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+.btn:hover {
+  /* transform: scale(1.1); */
+  box-shadow: 0 9px 10px rgba(0, 0, 0, 0.4);
 }
 .bgcol-1 {
   background-color: hsl(171, 66%, 44%);
@@ -148,9 +153,9 @@ body {
 }
 .section-featured-in {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 120px;
-  /* gap: 48px; */
+  gap: 120px;
 }
 .section-featured-in img {
   width: 10%;
@@ -159,10 +164,16 @@ body {
 .margin {
   margin: 32px 0;
 }
+footer {
+  background-color: hsl(197, 10%, 86%);
+  padding: 48px 96px;
+  margin-bottom: 0;
+}
 .footer-section {
   display: flex;
   align-items: center;
-  gap: 120px;
+  gap: 96px;
+  justify-content: center;
 }
 .footer-list {
   list-style: none;
@@ -172,22 +183,51 @@ body {
   gap: 48px;
 }
 .footer-list a {
+  display: inline-block;
   color: hsl(212, 12%, 32%);
   text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 12px;
 }
-.footer-icons {
+.footer-list a:hover {
+  color: hsl(171, 66%, 44%);
+}
+.social-list {
+  list-style: none;
   display: flex;
   gap: 12px;
+}
+.footer-icons {
   margin-left: auto;
-  cursor: pointer;
 }
-.icon-links:link {
-  fill: blue;
+.social-links {
+  color: hsl(212, 12%, 32%);
 }
+.social-links:hover {
+  color: hsl(171, 66%, 44%);
+}
+.social-icons {
+  font-size: 48px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 24px;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(212, 12%, 32%);
+}
+.attribution a:link,
+.attribution a:visited {
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.attribution a:hover,
+.attribution a:active {
+  color: hsl(171, 66%, 44%);
+  text-decoration: underline;
+  font-weight: bolder;
 }
