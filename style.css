@@ -164,7 +164,7 @@ body {
 .margin {
   margin: 32px 0;
 }
-footer {
+.footer {
   background-color: hsl(197, 10%, 86%);
   padding: 48px 96px;
   margin-bottom: 0;
@@ -230,4 +230,115 @@ footer {
   color: hsl(171, 66%, 44%);
   text-decoration: underline;
   font-weight: bolder;
+}
+@media (max-width: 444px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 8px;
+  }
+  .btn-box {
+    flex-direction: column;
+  }
+  .header {
+    margin-bottom: 96px;
+  }
+  .header-tertiary {
+    display: inline-block;
+    width: 70%;
+    margin-bottom: 24px;
+  }
+  .header-tertiary-text-box {
+    display: inline-block;
+    width: 90%;
+  }
+  .keep-track-feature-box {
+    flex-direction: column;
+  }
+  .keep-track-feature-box img {
+    width: 100%;
+  }
+  .keep-track-properties {
+    text-align: center;
+    margin-bottom: 96px;
+  }
+  .header-secondary {
+    display: inline-block;
+    width: 70%;
+  }
+  .heading-secondary-text {
+    width: 100%;
+  }
+  .mobile-img {
+    width: 100%;
+  }
+  .section-access {
+    gap: 48px;
+    margin-bottom: 96px;
+  }
+  .section-tag-lists {
+    flex-direction: column;
+  }
+  .tag-lists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hpclass-2 {
+    margin-right: 0;
+  }
+  .section-featured-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+    align-items: center;
+  }
+  .section-featured-in img {
+    width: 30%;
+  }
+  .section-clipboard {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 96px;
+  }
+  .margin {
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+  }
+  .footer-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .footer-links {
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 96px; */
+  }
+  .footer-icons {
+    margin-left: 0;
+  }
+  .social-list {
+    gap: 48px;
+  }
+  .footer {
+    padding: 32px 0;
+  }
 }
