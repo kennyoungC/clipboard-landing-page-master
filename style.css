@@ -79,6 +79,7 @@ body {
   align-items: center;
   gap: 96px;
 }
+
 .keep-track-properties {
   display: flex;
   flex-direction: column;
@@ -119,6 +120,11 @@ body {
 .mobile-img {
   display: inline-block;
   width: 75%;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.mobile-img:hover {
+  transform: scale(1.2);
 }
 .section-tags {
   display: flex;
